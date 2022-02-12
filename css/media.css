@@ -1,14 +1,19 @@
 @charset "UTF-8";
-@media all and (max-width: 768px) {
-  main {
-    width: 768px; }
+@media all and (max-width: 1262px) {
+  .supplier h1 {
+    width: 466px; }
+  .supplier .img {
+    width: 600px;
+    height: 485px; }
+  .supplier .bacgroudColor {
+    width: 40%; }
 
+  .search {
+    width: 1010px; } }
+@media all and (max-width: 1142px) {
   .supplier {
     margin-left: 39px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column; }
     .supplier h1 {
       font-size: 44px;
       margin-top: 80px;
@@ -18,43 +23,33 @@
       background: url(../img/adir-Cargo-Insurance2.png);
       width: 690px;
       height: 314px;
-      margin-top: 54px; }
+      margin-top: 54px;
+      margin-left: 0; }
     .supplier p {
       margin-top: 40px;
       margin-bottom: 61px; }
     .supplier .bacgroudColor {
-      width: 177px;
+      width: 40%;
       height: 743px; }
 
   .search {
     width: 690px;
     height: 100%;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     border-radius: 20px;
     margin: auto;
     margin-top: 41px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: normal;
-        -ms-flex-align: normal;
-            align-items: normal;
+    flex-direction: column;
+    align-items: normal;
     padding-left: 0px; }
     .search .wrapper {
       height: 164px;
       width: 100%;
       padding-left: 0px;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       background: #FFFFFF;
-      -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
-              box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
       border-radius: 20px;
       margin-bottom: 16px; }
     .search .ellipse {
@@ -64,17 +59,68 @@
       width: 100%;
       margin-top: 35px;
       margin-bottom: 20px;
-      height: -webkit-fit-content;
-      height: -moz-fit-content;
       height: fit-content; }
     .search p {
       width: 394px; }
     .search hr {
       display: none; } }
-@media all and (max-width: 375px) {
-  main {
-    width: 375px; }
+@media all and (max-width: 958px) {
+  .supplier .bacgroudColor {
+    width: 30%; } }
+@media all and (max-width: 770px) {
+  .supplier .bacgroudColor {
+    width: 20%; } }
+@media all and (max-width: 750px) {
+  .supplier .bacgroudColor {
+    width: 20%; }
+  .supplier .img {
+    width: 600px;
+    align-self: center; }
+  .supplier p {
+    width: 450px; }
 
+  .search {
+    width: 600px; } }
+@media all and (max-width: 650px) {
+  .supplier {
+    margin-left: 20px; }
+    .supplier .img {
+      width: 470px; }
+    .supplier p {
+      width: 400px; }
+
+  .search {
+    width: 345px;
+    height: 638px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-top: 56px; }
+    .search .wrapper {
+      height: 100%;
+      flex-direction: column;
+      display: flex;
+      box-shadow: none;
+      margin-top: 24px;
+      margin-bottom: 0px; }
+    .search .ellipse {
+      margin-top: 0px;
+      margin-bottom: 16px; }
+    .search h3 {
+      margin-top: 0px;
+      margin-bottom: 12px;
+      margin-left: 32px;
+      width: 218px;
+      font-size: 18px;
+      font-size: 15px;
+      line-height: 150%; }
+    .search p {
+      width: 100%;
+      margin-left: 32px;
+      margin-bottom: 0px; }
+    .search hr {
+      display: none; } }
+@media all and (max-width: 482px) {
   .supplier {
     margin-left: 15px; }
     .supplier h1 {
@@ -100,45 +146,6 @@
       content: "Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с подбора производителя заканчивая доставкой товара до двери."; }
     .supplier .bacgroudColor {
       width: 100%;
-      height: 766px; }
-
-  .search {
-    width: 345px;
-    height: 638px;
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
-    margin-top: 56px; }
-    .search .wrapper {
-      height: 100%;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      margin-top: 24px;
-      margin-bottom: 0px; }
-    .search .ellipse {
-      margin-top: 0px;
-      margin-bottom: 16px; }
-    .search h3 {
-      margin-top: 0px;
-      margin-bottom: 12px;
-      margin-left: 32px;
-      width: 218px;
-      font-size: 18px;
-      font-size: 15px;
-      line-height: 150%; }
-    .search p {
-      width: 100%;
-      margin-left: 32px;
-      margin-bottom: 0px; }
-    .search hr {
-      display: none; } }
+      height: 766px; } }
 
 /*# sourceMappingURL=media.css.map */
