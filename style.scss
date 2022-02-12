@@ -1,0 +1,106 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #6B6B6C;
+    overflow-x: hidden;
+}
+
+main {
+    width: 1440px;
+    position: relative;
+}
+
+.supplier {
+    display: flex;
+    margin-left: 100px;
+
+    h1 {
+        font-family: 'Exo 2', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 125%;
+        margin-top: 190px;
+        color: #363738;
+        width: 610px;
+        height: 119px;
+    }
+    p {
+        width: 525px;
+        height: 66px;
+        line-height: 150%;
+    }
+    p:after  { content: "Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с подбора производителя заканчивая доставкой товара до двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли."}
+    .img {
+        background: url(/img/adir-Cargo-Insurance.png);
+        background-repeat: no-repeat;
+        width: 635px;
+        height: 505px;
+        margin-top: 109px;
+    }
+    a {
+        border-bottom: 3px solid #FFCE50;
+        font-weight: bold;
+        font-size: 16px;
+        color: #363738;
+        text-decoration: none;
+    }
+    .bacgroudColor {
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        background: #0B7572;
+        width: 600px;
+        height: 787px;
+    
+    }
+}
+
+.search {
+    width: 1240px;
+    height: 341px;  
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 67px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+
+    .wrapper {
+        height: 100%;
+        padding-left: 64px;
+        width: 413px;
+    }
+
+    .ellipse {
+        background: url(/img/Ellipse\ 2.png);
+        width: 92px;
+        height: 92px;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+    img {
+        align-self: center;
+    }
+    h3 {
+        font-family: 'Exo 2', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #363738;
+        width: 228px;
+        height: 48px;
+        margin-bottom: 16px;
+    }
+    p {
+        width: 225px;
+    }
+    hr {
+        height: 261px;
+        border: 1px solid #D7D7DD;
+    }
+}
