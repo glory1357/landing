@@ -31,7 +31,7 @@ main {
   .supplier p:after {
     content: "Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с подбора производителя заканчивая доставкой товара до двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли."; }
   .supplier .img {
-    background: url(./img/adir-Cargo-Insurance.png);
+    background: url(../img/adir-Cargo-Insurance.png);
     background-repeat: no-repeat;
     width: 635px;
     height: 505px;
@@ -71,7 +71,7 @@ main {
     padding-left: 64px;
     width: 413px; }
   .search .ellipse {
-    background: url(./img/Ellipse\ 2.png);
+    background: url(../img/Ellipse\ 2.png);
     width: 92px;
     height: 92px;
     display: -webkit-box;
